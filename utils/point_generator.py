@@ -19,6 +19,8 @@ class PointGenerator(object):
             new_point = dict(index=x, lat=new_lat, long=new_long)
             self._point_list.append(new_point)
 
+        return self._point_list
+
     def save_to_file(self):
         if len(self._point_list) == 0:
             print("Error: No point generated!")
