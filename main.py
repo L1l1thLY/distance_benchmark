@@ -7,8 +7,6 @@ from algorithm import s2
 if __name__ == '__main__':
     algo = DistanceAlgorithm()
 
-    print(algo.spherical_distance(90, 13, 79, 45))
-
     gen = PointGenerator(count=1000000)
     point_list = gen.generate()
 
