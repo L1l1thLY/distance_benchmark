@@ -16,8 +16,8 @@ class DistanceAlgorithm(object):
 
         distance = 2 * math.asin(
             math.sqrt(
-                math.pow(math.sin(lat_delta / 2), 2) + \
-                math.cos(a_rad_lat) * math.cos(b_rad_lat) * \
+                math.pow(math.sin(lat_delta / 2), 2) +
+                math.cos(a_rad_lat) * math.cos(b_rad_lat) *
                 math.pow(math.sin(long_delta / 2), 2)
             )) * 6378.137
 
